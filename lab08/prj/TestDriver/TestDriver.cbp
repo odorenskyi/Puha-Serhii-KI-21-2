@@ -13,11 +13,11 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="../../../prj" />
+					<Add directory="../../prj" />
 				</Compiler>
 				<Linker>
-					<Add library="../../ModulesPuha/bin/Debug/libModulesPuha.a" />
-					<Add directory="../../ModulesPuha/bin/Debug" />
+					<Add library="../ModulesPuha/bin/Debug/libModulesPuha.a" />
+					<Add directory="bin/Debug" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -36,11 +36,11 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
-			<Add directory="../../ModulesPuha" />
+			<Add directory="../../prj" />
 		</Compiler>
 		<Linker>
-			<Add library="../../ModulesPuha/bin/Debug/libModulesPuha.a" />
-			<Add directory="../../ModulesPuha/bin/Debug" />
+			<Add library="../../../../BMTP-Lab8-Пуга/prj/ModulesPuha/bin/Debug/libModulesPuha.a" />
+			<Add directory="bin/Debug" />
 		</Linker>
 		<Unit filename="main.cpp" />
 		<Extensions>
